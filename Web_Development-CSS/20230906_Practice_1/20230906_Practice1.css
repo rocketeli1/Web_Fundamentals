@@ -1,0 +1,13 @@
+* {
+    background-color: green;
+}
+input[type="submit"] {
+    background-color: red;
+}
+input[type="text"] {
+    background-color: white;
+}
+h1 {
+    color: cyan;
+    background-color: grey;
+}

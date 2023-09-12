@@ -1,0 +1,29 @@
+.box1 input[type="submit"] {
+    border-radius: 10px;
+    border-color: seagreen;
+    width: 100px;
+    color: seagreen;
+    background-color: floralwhite;
+    margin: 5px;
+}
+.box2 input[type="submit"] {
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    background-color: mediumseagreen;
+    color: white;
+    font-weight: bold;
+    border-color: mediumseagreen;
+    margin: 5px;
+}
+.box3 input[type="submit"] {
+    border-radius: 0%;
+    width: 200px;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    font-weight: normal;
+    border-color: black;
+    margin: 5px;
+    box-shadow: 10px 5px 5px black;
+}

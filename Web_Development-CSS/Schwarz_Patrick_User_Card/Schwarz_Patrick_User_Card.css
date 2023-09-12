@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    width: 800px;
+    margin: 0px;
+    padding: 20px;
+}
+.colorblock {
+    background-color: teal;
+    height: 100px;
+    width: 800px;
+    border: 5px solid teal;
+    border-radius: 1%;
+}
+#profile_image {
+    width: 100px;
+    position: fixed;
+    top: 70px;
+    left: 70px;
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 100%;
+    padding: 2px;
+}
+.profile_text {
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 1%;
+    width: 800px;
+}
+.space1 {
+    height: 50px;
+}
+h1 {
+    margin: 10px 35px;
+}
+/* I could update margin to remove the space1 div */
+.location {
+    margin: 10px 35px;
+    justify-content: space-between;
+/* see if the justify-content is necessary */
+}
+#map_pin {
+    width: 10px;
+}
+h2 {
+    display: inline;
+}
+.description, .edit_profile {
+    margin: 10px 35px;
+}
+/* .edit_profile {
+    margin: 10px 35px;
+} */
+img[src="gear.png"] {
+    width: 15px;
+}
+
+/* width: inherit;
+position: fixed;
+top: 0px; */

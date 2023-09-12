@@ -1,0 +1,23 @@
+* {
+    background-color: white;
+}
+body {
+    display: flex;
+}
+.white_third {
+    width: 1000px;
+    height: 800px;
+    background: white;
+    justify-content: center;
+}
+.red_third {
+    width: 1000px;
+    height: 800px;
+    background: red;
+    align-items: top;
+}
+.blue_third {
+    width: 1000px;
+    height: 800px;
+    background: blue;
+}

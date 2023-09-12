@@ -1,0 +1,215 @@
+/* Wildcard */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+
+/* ************************************************************************************************************** */
+/* Top Navigation */
+.top_nav {
+    width: 100%;
+    background-color: black;
+    color: white;
+    justify-content: top;
+    padding: 10px;
+}
+.navigation {
+    display: inline;
+    margin: 0% 10%;
+    padding: 0px 10px;
+}
+h1[id="profile"] {
+    display: inline;
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+p.nav_bar_links {
+    display: inline;
+    padding: 0px 10px;
+}
+#my_profile {
+    display: inline;
+    padding: 0px 10px;
+}
+.sign_out {
+    display: inline;
+    justify-content: right;
+    margin: 0% 10%;
+}
+#sign_out_button {
+    background-color: teal;
+    color: white;
+    justify-content: right;
+}
+
+
+/* ************************************************************************************************************** */
+/* Profile and Education */
+.profile_and_ed {
+    display: inline-block;
+}
+
+
+/* ************************************************************************************************************** */
+/* Profile */
+.profile_container {
+    width: 800px;
+    margin: 0px;
+    padding: 20px;
+}
+.colorblock {
+    background-color: teal;
+    height: 100px;
+    width: 800px;
+    border: 5px solid teal;
+    border-radius: 1%;
+}
+#profile_image {
+    width: 100px;
+    position: relative;
+    top: 70px;
+    left: 70px;
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 100%;
+    padding: 2px;
+}
+.profile_text {
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 1%;
+    width: 800px;
+}
+.space1 {
+    height: 50px;
+}
+h1 {
+    margin: 10px 35px;
+}
+.location {
+    margin: 10px 35px;
+    justify-content: space-between;
+}
+#map_pin {
+    width: 10px;
+}
+h2 {
+    display: inline;
+}
+.description {
+    margin: 10px 35px;
+}
+.edit_profile {
+    margin: 10px 35px;
+}
+img[src="1-gear.png"] {
+    width: 15px;
+}
+
+
+/* ************************************************************************************************************** */
+/* Education */
+.ed_container {
+    width: 800px;
+    margin: 0px;
+    padding: 20px;
+}
+.ed_head {
+    width: 800px;
+    justify-content: top;
+    color: white;
+    background-color: darkslategray;
+    border: 5px solid darkslategray;
+    border-radius: 1%;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+.ed_head_text {
+    margin: 10px 35px;
+}
+.ed_body {
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 1%;
+    width: 800px;
+    padding: 10px 0px;
+}
+#dojo_head {
+    margin: 10px 35px;
+}
+#dojo_dates {
+    color: gray;
+    margin: 10px 35px;
+}
+#dojo_description {
+    margin: 10px 35px;
+}
+
+
+/* ************************************************************************************************************** */
+/* Connections and Requests */
+.connections_and_requests {
+    display: inline-block;
+}
+
+
+/* ************************************************************************************************************** */
+/* Requests */
+.requests_container {
+    width: 400px;
+    margin: 0px;
+    padding: 20px;
+}
+.requests_head {
+    width: 400px;
+    justify-content: top;
+    color: white;
+    background-color: darkslategray;
+    border: 5px solid darkslategray;
+    border-radius: 1%;
+    padding: 0px 0px 5px;
+    display: block;
+}
+.requests_count {
+    padding: 0px 1px;
+    margin: 10px;
+    color: darkslategray;
+    display: inline;
+    border-radius: 100%;
+    border: 5px solid lightgray;
+    background-color: lightgray;
+    width: 20px;
+}
+.requests_body {
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 1%;
+    width: 400px;
+    padding: 10px 0px;
+    /* display: flex; */
+}
+.request_row {
+    display: block;
+    /* width: 400px; */
+    justify-content: space-between;
+}
+.connection_image {
+    /* display: inline; */
+    width: 50px;
+    margin: 0px 10px;
+}
+#accept_decline {
+    display: inline;
+    width: 50px;
+    /* display: inline; */
+    /* display: flex; */
+    /* justify-content: right; */
+    /* margin: 0px;
+    padding: 0px; */
+}
+/* .requests_icons {
+    display: inline;
+} */

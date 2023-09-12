@@ -1,0 +1,24 @@
+/* Part 1 */
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+    background-color: seagreen;
+    padding: 10px;
+    margin: 10px;
+}
+/* Part 2 */
+.col-2 {
+    flex: 2;
+    background-color: seagreen;
+    padding: 10px;
+    margin: 10px;
+}
+/* Part 3 */
+.col-3 {
+    flex: 3;
+    background-color: seagreen;
+    padding: 10px;
+    margin: 10px;
+}

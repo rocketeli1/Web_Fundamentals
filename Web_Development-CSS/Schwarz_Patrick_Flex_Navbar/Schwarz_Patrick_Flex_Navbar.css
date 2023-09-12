@@ -1,0 +1,37 @@
+body {
+    font-family: cursive;
+    color: white;
+}
+.nav {
+    background-color: darkslategray;
+    height: 50px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* h1 {
+    color: white;
+    font-family: cursive;
+    align-items: center;
+    justify-content: left; 
+} */
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a {
+    color: white;
+}
+h1 {
+    margin-left: 20px;
+}
+button {
+    height: 30px;
+    width: 80px;
+    background-color: skyblue;
+    color: white;
+    box-shadow: 5px 5px black;
+}
